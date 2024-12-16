@@ -1,0 +1,53 @@
+/* position :  relative , fixed , absolute , sticky  */
+
+/* position relative  ::  */
+/* p {
+    position: relative;
+   
+    left: 500px;
+    top: 50px;
+} */
+
+
+/* ///////////////////////////////////////////// */
+/* position fixed :::  */
+
+body {
+    height: 1000px;
+}
+
+p {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    color: red;
+    font-size: 50px;
+}
+
+/* ////////////////////////////////////////////////////// */
+/* position sticky :::  */
+/* body {
+    height: 5000px;
+}
+
+.parent {
+    border: solid 5px red;
+    height: 500px;
+}
+
+p{
+    position: sticky;
+    top: 400px;
+    
+
+} */
+
+
+/* /////////////////////////////////////////////////// */
+
+/* position absolute :::  */
+
+/* .hello{
+position: absolute;
+left: 500px;
+} */
